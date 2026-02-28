@@ -1,7 +1,7 @@
 ---
 name: develop
 description: Autonomous development agent. Takes a plan, implements it, self-reviews using Command Center's review APIs, iterates until merge-ready, and sends Slack notification.
-argument-hint: [--review-only] <plan text or path to plan file>
+argument-hint: "--review-only <plan text or path to plan file>"
 ---
 
 # Autonomous Development Skill
